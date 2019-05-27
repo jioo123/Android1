@@ -24,10 +24,12 @@
             android:textSize="20dp" />
 
 
-        <TextView
+        <Spinner
             android:layout_width="wrap_content"
+            android:id="@+id/operator"
             android:layout_height="wrap_content"
-            android:text=" * "
+            android:entries="@array/operator"
+            android:background="@null"
             android:textSize="20dp" />
 
         <EditText
@@ -56,5 +58,15 @@
         android:layout_centerHorizontal="true"
         android:text="결과값 출력"
         android:textSize="20dp" />
+
+    <include
+        layout="@layout/keypad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/click"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="0dp" />
 
 </RelativeLayout>
