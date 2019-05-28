@@ -32,7 +32,6 @@
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:gravity="center"
-
             android:text="2" />
 
         <TextView
@@ -43,14 +42,13 @@
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:gravity="center"
-
             android:text="3" />
 
         <TextView
-            android:clickable="false"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:clickable="false"
             android:gravity="center"
             android:text="" />
     </LinearLayout>
@@ -72,7 +70,6 @@
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:gravity="center"
-
             android:text="4" />
 
         <TextView
@@ -81,7 +78,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-
             android:clickable="true"
             android:gravity="center"
             android:text="5" />
@@ -97,11 +93,11 @@
             android:text="6" />
 
         <TextView
-            android:clickable="false"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
+            android:clickable="false"
             android:gravity="center"
             android:text="" />
     </LinearLayout>
@@ -118,7 +114,6 @@
             android:id="@+id/keypad_7"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-
             android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -130,7 +125,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:gravity="center"
@@ -142,7 +136,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-
             android:clickable="true"
             android:gravity="center"
             android:text="9" />
@@ -153,12 +146,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-
             android:clickable="true"
             android:gravity="center"
-
             android:text="." />
-
 
     </LinearLayout>
 
